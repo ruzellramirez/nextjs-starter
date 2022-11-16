@@ -1,0 +1,19 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "strict": ["error", "global"],
+    "no-var": "error",
+    "prefer-const": "error",
+    "one-var": ["error", "never"],
+    "camelcase": "error",
+    "no-unused-vars": "error",
+    "no-array-constructor": "error",
+    "no-new-object": "error",
+    "no-multi-assign": "error",
+    "quote-props": ["error", "as-needed"],
+    "no-new-wrappers": "error",
+    "eqeqeq": "error",
+    "yoda": "error",
+    "no-extra-boolean-cast": "error"
+  }
+}
